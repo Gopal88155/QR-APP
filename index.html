@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR App</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+
+    
+    <nav class="navbar bg-dark ">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1 text-light">QR APP</span>
+      </div>
+    </nav>
+
+    <div class="containeer p-5">
+      <div class="card my-3 p-3">
+        <form>
+          <input 
+              type="text"
+              required
+              class="form-control"
+              placeholder="Enter Text Here"
+            />
+            <select class="form-select my-3">
+              <option value="150x150">150x150</option>
+              <option value="250x250">250x250</option>
+              <option value="500x500">500x500</option>
+            </select>
+
+            <button class="my-3 btn btn-success w-100">Submit</button>
+
+        </form>    
+      </div>
+
+      <div class="card my-3 p-3 d-flex align-items-center justify-content-center">
+        <img class="img-fluid"
+         src="https://i.pinimg.com/originals/e4/af/9f/e4af9f0025a8ce68bee2cf5a1360a501.gif" 
+         alt="">
+      </div>
+
+      <button id="download" class="my-3 btn btn-dark w-100">Download QR</button>
+
+    </div>
+
+    
+    <script src="main.js"></script>
+  </body>
+</html>
